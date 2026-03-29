@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "slug": "product-manager",
+  "name": "产品经理助手",
+  "nameEn": "Product Manager Assistant",
+  "description": "专业产品经理技能包，覆盖从需求挖掘到上线规划的全流程。内置 KANO 模型、MoSCoW 优先级、5W1H 追问法、RICE 评分等专业框架。",
+  "descriptionEn": "A full-cycle product manager skill pack covering requirements analysis, user research, PRD writing, competitive analysis, roadmap planning, and review management.",
+  "version": "1.0.0",
+  "author": "Leck",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "product-manager",
+    "prd",
+    "requirements-analysis",
+    "user-research",
+    "competitive-analysis",
+    "roadmap",
+    "产品经理",
+    "需求分析",
+    "竞品分析",
+    "路线图"
+  ],
+  "language": ["zh-CN", "en"],
+  "screenshots": [],
+  "homepage": "https://github.com/Leck88/product-manager-skill",
+  "repository": "https://github.com/Leck88/product-manager-skill",
+  "installCommand": "npx skills add Leck88/product-manager-skill",
+  "rating": null,
+  "downloads": 0,
+  "updatedAt": "2026-03-29"
+}

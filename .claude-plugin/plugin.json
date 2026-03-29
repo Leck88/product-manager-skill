@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.0",
+  "name": "product-manager",
+  "displayName": "产品经理助手 (Product Manager)",
+  "version": "1.0.0",
+  "description": "专业产品经理技能包 —— 涵盖需求分析、用户研究、PRD撰写、竞品分析、产品路线图、评审管理的全流程产品经理助手",
+  "author": "Leck",
+  "license": "MIT",
+  "keywords": ["product-manager", "prd", "requirements", "user-research", "competitive-analysis", "roadmap", "产品经理", "需求分析"],
+  "categories": ["productivity", "product-management"],
+  "skillFile": "skills/product-manager/SKILL.md",
+  "capabilities": [
+    "需求分析（5W1H + KANO + MoSCoW）",
+    "PRD 文档撰写",
+    "用户研究与访谈设计",
+    "竞品分析（功能、体验、商业模式）",
+    "产品路线图规划（ICE/RICE 评分）",
+    "需求评审主持"
+  ],
+  "commands": [
+    { "trigger": "/需求", "description": "启动结构化需求分析流程" },
+    { "trigger": "/prd", "description": "生成 PRD 文档草稿" },
+    { "trigger": "/竞品", "description": "执行竞品分析" },
+    { "trigger": "/访谈", "description": "生成用户访谈提纲" },
+    { "trigger": "/路线图", "description": "规划产品路线图" },
+    { "trigger": "/评审", "description": "主持需求评审并输出结论" }
+  ],
+  "compatibleClients": [
+    "workbuddy",
+    "codebuddy",
+    "claude-code",
+    "cursor",
+    "windsurf"
+  ]
+}
