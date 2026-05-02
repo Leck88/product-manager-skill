@@ -21,7 +21,7 @@ git commit -m "feat: initial release v1.0.0 - product manager skill"
 
 # 在 GitHub 创建新仓库（名称建议：product-manager-skill）
 # 然后推送：
-git remote add origin https://github.com/你的用户名/product-manager-skill.git
+git remote add origin https://github.com/Leck88/product-manager-skill.git
 git branch -M main
 git push -u origin main
 ```
@@ -33,7 +33,7 @@ git push -u origin main
 发布前，将 `.claude-plugin/marketplace.json` 和 `README.md` 中的以下占位符替换为真实值：
 
 ```
-your-username  →  你的 GitHub 用户名
+your-username  →  Leck88
 ```
 
 ---
